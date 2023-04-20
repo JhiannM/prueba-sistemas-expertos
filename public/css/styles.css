@@ -1,0 +1,74 @@
+body{
+    font-family: "Franklin Gothic Medium", "Arial Narrow", sans-serif, sans-serif;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+label {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+input {
+  padding: 8px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+input:focus {
+  border-color: #1e90ff;
+  outline: none;
+}
+
+button {
+  background-color: #1e90ff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0066cc;
+}
+
+/* Estilo de la tabla */
+table {
+  margin-top: 20px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  padding: 8px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+td{
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+/* Estilo de las filas impares */
+tr:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+h1{
+    text-align: center;
+}

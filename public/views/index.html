@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prueba de conocimiento</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+    <script src="../js/app.js"></script>
+  </head>
+  <body>
+    <h1>Formulario de registro</h1>
+    <form id="registroUser" name="registroUser" method="POST" action="/guardar-informacion">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required />
+
+      <label for="cedula">Cédula:</label>
+      <input type="number" id="cedula" name="cedula" required />
+
+      <label for="telefono">Teléfono:</label>
+      <input type="tel" id="telefono" name="telefono" required />
+
+      <button type="submit">Enviar</button>
+    </form>
+    <div>
+      <table id="datos">
+        <thead>
+          <tr>
+            <th>Nombre</th>
+            <th>Cédula</th>
+            <th>Teléfono</th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+      
+    </div>
+  </body>
+</html>
