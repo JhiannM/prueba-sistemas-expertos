@@ -6,8 +6,8 @@ Este es un proyecto simple de registro de datos que utiliza una aplicación web 
 Cuando se carga la página principal en el navegador, se realiza una solicitud HTTP GET al servidor para obtener los datos del archivo JSON y se muestran en una tabla en el HTML. El usuario puede agregar nuevos datos utilizando un formulario en la página y estos datos se envían al servidor a través de una solicitud HTTP POST. El servidor valida los datos y los agrega al archivo JSON. Después de agregar los datos, se muestra un mensaje de confirmación en la página y la tabla de datos se actualiza para mostrar los nuevos datos.
 
 # Instalación
-• Para ejecutar este proyecto, primero debe clonar el repositorio en su máquina local. 
-
+• Para ejecutar este proyecto, primero debe clonar el repositorio en su máquina local.
+    git clone https://github.com/JhiannM/prueba-sistemas-expertos.git
 
 • A continuación, debe instalar las dependencias del proyecto con el siguiente comando:
     npm install 
